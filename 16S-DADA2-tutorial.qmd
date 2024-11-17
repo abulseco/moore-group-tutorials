@@ -1,0 +1,30 @@
+---
+title: "16S DADA2 Tutorial"
+author: "Ashley Bulseco"
+format: revealjs
+editor: visual
+---
+
+## What do you need?
+
+-   Download R and RStudio
+```{r}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("dada2")
+```
+
+
+-   Install DADA2 via Bioconductor
+
+-   Download practice data via provided link
+
+```{r}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("dada2")
+```
+
+## Prepare your environment
