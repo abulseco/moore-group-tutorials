@@ -50,3 +50,9 @@ rsconnect/
 
 # R Project files
 .Rproj
+
+# .csv files
+.csv
+
+# rds files
+.rds
